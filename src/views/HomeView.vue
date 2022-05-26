@@ -8,8 +8,6 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
-import Web3 from 'web3'
-let web3 = new Web3()
 
 @Component({
   components: {

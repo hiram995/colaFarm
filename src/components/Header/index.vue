@@ -4,10 +4,7 @@
       <img src="./images/`ColaLogo-Black.png" alt="logo" />
     </div>
     <div class="txt">
-      <img
-        src="./images/Provide liquidity in ColaSwap,Earn ColaSwap Token..png"
-        alt="txt"
-      />
+     Provide liquidity in ColaSwap,Earn ColaSwap Token.
     </div>
     <ConnectWalletBtn class="btn" />
   </div>
@@ -34,6 +31,9 @@ export default class HomeView extends Vue {}
     margin-left: 3.125rem;
   }
   .txt {
+    font-size: 25px;
+    color: #02000d33;
+    text-align: center;
     margin-top: 2.25rem;
   }
   .btn {

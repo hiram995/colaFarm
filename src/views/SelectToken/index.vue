@@ -5,13 +5,31 @@
     </div>
     <div class="tokenBox">
       <div>
-        <div class="leftBox"></div>
+        <div class="leftBox" style="padding-top:30px;">
+          <div style="text-align:center; margin-bottom:10px;"><img src="./images/1.png" style="width:100px; border-radius: 50%;"></div>
+          <div style="text-align:center; font-size:20px">
+            <p>0.00000</p>
+            <p style="font-size:25px">GET the COLA</p>
+            <p style="font-size:13px">Expect to dig out in 24 hours  <span style="padding-left:30px">260.84COLA</span> </p>
+            <p style="font-size:13px">Expect to dig out in 24 hours  <span style="padding-left:30px">260.84COLA</span> </p>
+          </div>
+        </div>
         <div class="toObtain">
           <span>To Obtain</span>
         </div>
       </div>
       <div>
-        <div class="rightBox"></div>
+        <div class="rightBox" style="padding-top:30px;">
+          <div style="text-align:center; margin-bottom:10px;">
+            <img src="./images/1.png" style="width:100px; border-radius: 50%;">
+            <img src="./images/2.png" style="width:100px; border-radius: 50%;">
+          </div>
+          <div style="text-align:center; font-size:20px">
+            <p>0.00000</p>
+            <p style="font-size:25px">Pledge is COLA_ETH_LP</p>
+            <p style="font-size:13px; margin-top:10px">Deposit the receipt coins into the pool for mining</p>
+          </div>
+        </div>
         <div class="rp">
           <div class="leftR">
             <span>Redemption</span>
@@ -35,6 +53,10 @@ export default class HomeView extends Vue {}
 </script>
 
 <style lang='less' scoped>
+p {
+  margin: 0;
+  padding: 0;
+}
 .selectToken {
   width: 100%;
   height: 100%;
@@ -74,7 +96,7 @@ export default class HomeView extends Vue {}
     margin-top: 2.6875rem;
     .leftBox {
       width: 20rem;
-      height: 16.25rem;
+      height: 14.25rem;
       background-image: url("./images/Button - -2.png");
       background-repeat: no-repeat;
       margin-left: 0.125rem;
@@ -96,7 +118,7 @@ export default class HomeView extends Vue {}
     }
     .rightBox {
       width: 20rem;
-      height: 16.25rem;
+      height: 14.25rem;
       background-image: url("./images/Button - -2.png");
       background-repeat: no-repeat;
       margin-left: 3.125rem;

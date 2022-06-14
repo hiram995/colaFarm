@@ -22,7 +22,7 @@ import product from './product/index.vue'
 export default class HomeView extends Vue {}
 </script>
 
-<style lang=less scoped>
+<style lang='less' scoped>
 .home {
   display: flex;
   justify-content: center;

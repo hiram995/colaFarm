@@ -67,7 +67,6 @@
       title="Deposit in COLA_ETH-LP"
       :visible.sync="dialogVisible"
       width="30%"
-      :before-close="handleClose"
     >
       <span>You'll receive bids on this item</span>
       <!-- 图片 -->
@@ -94,8 +93,8 @@
   </div>
 </template>
 
-<script>
-import { Component, Vue } from "vue-property-decorator";
+<script lang='ts'>
+import { Component, Vue } from 'vue-property-decorator';
 @Component({})
 export default class HomeView extends Vue {
   dialogVisible = true;
@@ -112,7 +111,7 @@ export default class HomeView extends Vue {
 
 <style lang='less'>
 .el-dialog {
-  margin-top: 28vh!important;
+  margin-top: 28vh !important;
 }
 .el-dialog__footer {
   text-align: center;
